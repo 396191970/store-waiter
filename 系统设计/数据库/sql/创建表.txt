@@ -1,0 +1,26 @@
+
+create table t_goods_detail
+(
+id int primary key ,
+describe varchar(1024),
+flavor varchar(2)
+);
+
+create table t_goods
+(
+id int primary key ,
+name varchar(50),
+picture_path varchar(100),
+creat_date date,
+priority int,
+price  numeric(9,2)
+);
+
+
+create table t_shopping_cart
+(
+id int primary key,
+goods_id int,
+quantity int 
+ 
+);

@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport"
+	content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+
+<title>Bootstrap 实例 - 手机、平板电脑、台式电脑</title>
+<link href="/css/bootstrap.min.css" rel="stylesheet">
+<link href="/css/my.css" rel="stylesheet">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+<script>
+$(document).ready(function()
+  {
+  $("button").click(function(){
+    $("#p1").css("color","red").slideUp(2000).slideDown(2000);
+  });
+});
+</script>
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="row">
+					<div class="col-xs-4">
+						<img alt="140x140" src="/upload/714806923256628398.jpg"
+							class="img-circle"
+							style="width: 100px; height: 100px;/>
+				</div>
+				<div class=" span6"="">
+					</div>
+					<div class="col-xs-8">
+						<div class="row">
+							<div class="col-xs-12">
+								<p>名称</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-xs-6">
+								<p>点赞</p>
+							</div>
+							<div class="col-xs-6">
+								<p>好评</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-xs-3">
+								<p>￥22</p>
+							</div>
+							<div class="col-xs-9">
+								<row>
+								<div class="col-xs-4" >
+									<button class="btn" type="button" style=" float: right;  " >-</button>
+								</div>
+								<div class="col-xs-4"  style="text-align:center">
+									<p> 1</p>
+								</div>
+								<div class="col-xs-4" >
+									<button class="btn" type="button">+</button>
+								</div>
+								</row>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

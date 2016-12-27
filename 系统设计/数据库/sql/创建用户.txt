@@ -1,0 +1,3 @@
+create user tuobuxie identified by tuobuxie0755
+grant connect,resource,dba to tuobuxie;
+
